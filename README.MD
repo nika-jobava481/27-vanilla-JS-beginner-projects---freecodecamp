@@ -4,7 +4,7 @@ This repository contains a collection of Vanilla JavaScript projects to help you
 
 ## Project List
 
-- [ ] Create a Color Flipper
+- [x] Create a Color Flipper
 - [ ] Create a Counter
 - [ ] Create a Review Carousel
 - [ ] Create a Responsive Navbar

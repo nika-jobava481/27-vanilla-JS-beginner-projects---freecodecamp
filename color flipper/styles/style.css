@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+main .display {
+  padding: 20px;
+  background-color: #fff;
+  color: #404040;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+main .change {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  color: #404040;
+  background-color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
