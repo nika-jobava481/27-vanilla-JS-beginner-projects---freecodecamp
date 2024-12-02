@@ -5,7 +5,7 @@ This repository contains a collection of Vanilla JavaScript projects to help you
 ## Project List
 
 - [x] Create a Color Flipper
-- [ ] Create a Counter
+- [x] Create a Counter
 - [ ] Create a Review Carousel
 - [ ] Create a Responsive Navbar
 - [ ] Create a Sidebar
@@ -34,6 +34,6 @@ This repository contains a collection of Vanilla JavaScript projects to help you
 
 ## Progress Tracking
 
-Each project will have its own folder and detailed instructions once completed. For now, all projects are in the planning stage, and their status is marked as incomplete.
+Each project will have its own folder once completed. For now, all projects are in the planning stage, and their status is marked as incomplete.
 
 Stay tuned for updates as I progress through the list!
