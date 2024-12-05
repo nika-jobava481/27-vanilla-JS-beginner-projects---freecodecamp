@@ -91,13 +91,41 @@ const reviews = [
     }
 ]
 
+let INDEX = 0;
 
-// {
-//     "id": 1,
-//     "name": "John",
-//     "surname": "Doe",
-//     "job": "Software Engineer specializing in backend development",
-//     "reviewText": "John consistently delivers high-quality code and pays great attention to detail. His ability to debug complex issues and optimize performance has been invaluable to the team.",
-//     "rating": 5,
-//     "imageUrl": "https://shorturl.at/JpnfR"
-// }
+document.getElementById("left").addEventListener("click", () => getIndex(false));
+document.getElementById("right").addEventListener("click", () => getIndex(true));
+
+
+function getIndex(bool) {
+
+    if (bool) {
+        INDEX++
+    } else {
+        INDEX--
+    }
+
+    if (INDEX >= reviews.length) {
+        INDEX = 0
+    } else if (INDEX < 0) {
+        INDEX = reviews.length - 1
+    }
+
+    re()
+
+
+}
+
+
+function re() {
+    document.getElementById("cardContent").innerHTML = `
+                <div class="img">
+                    <img src="${reviews[INDEX].imageUrl}" alt="img">
+                </div>
+                <p class="name">${reviews[INDEX].name} ${reviews[INDEX].surname}</p>
+                <p class="job">${reviews[INDEX].job}</p>
+                <p class="review">${reviews[INDEX].reviewText}</p>
+    `
+}
+
+re()

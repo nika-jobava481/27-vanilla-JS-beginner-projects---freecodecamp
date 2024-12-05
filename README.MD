@@ -6,7 +6,7 @@ This repository contains a collection of Vanilla JavaScript projects to help you
 
 - [x] Create a Color Flipper
 - [x] Create a Counter
-- [ ] Create a Review Carousel
+- [x] Create a Review Carousel
 - [ ] Create a Responsive Navbar
 - [ ] Create a Sidebar
 - [ ] Create a Modal
